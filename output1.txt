@@ -1,2 +1,4 @@
-close
-open
+bac
+quan
+thao
+nga
