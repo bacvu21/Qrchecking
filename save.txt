@@ -1,1 +1,1 @@
-D:/projectlinhtinh/python/Chong_buon_ngu.py,D:/projectlinhtinh/python/tham_so.py,
+D:/projectlinhtinh/python/Qrcheck/Qr_Checking.py,

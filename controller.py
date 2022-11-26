@@ -2,7 +2,7 @@ from pyfirmata import Arduino
 import time 
 
 
-port ='COM12'
+port ='COM13'
 
 pin = 11
 pin1 = 10

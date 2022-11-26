@@ -39,7 +39,7 @@ def runApps():
             
             
             
-canvas = tk.Canvas(root ,height= 500 , width= 700 , bg ="#263D45")
+canvas = tk.Canvas(root ,height= 400, width= 700 , bg ="#263D45")
 canvas.pack(side ='top')
 canvas.create_text(360,50,  font = ("Arial", 20, "bold"), text = "Chương Trình quét mã Qr" ,fill = 'red')
 canvas.create_text(370,20,  font = ("Arial", 20, "bold"), text = "Đại Học Sư Phạm Kỹ Thuật Hưng Yên" ,fill = 'red')
@@ -77,7 +77,7 @@ openFile.pack()
 
 
 
-runApps = tk.Button(root , text ="Chạy chương trình ",padx =10,pady =5,fg="white",bg="#263D42" ,command = runApps)
+runApps = tk.Button(root , text ="Chạy chương trình ",padx =50,pady =50,fg="white",bg="#263D42" ,command = runApps)
 runApps.pack()
 
 frame =tk.Frame(canvas)

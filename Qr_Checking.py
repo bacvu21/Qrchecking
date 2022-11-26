@@ -85,3 +85,5 @@ while True:
     cv2.imshow('Result',img)
     if cv2.waitKey(1)==ord('q'):
             break;
+cv2.destroyAllWindows()    
+cap.realease()
