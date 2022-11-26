@@ -38,7 +38,10 @@ def runRelay_off4():
     
 
 def delay(n):
+    
     time.sleep(n)
+    runRelay_off()
+    
 
 
     

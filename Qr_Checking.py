@@ -7,7 +7,7 @@ import cv2 #Thư viện mã nguồn mở opencv
 
 import numpy as np   #thư viện thuật toán  cho phép phân tích hình ảnh thành ma trận số
 from pyzbar.pyzbar import decode #thư viện đọc dữ liệu và biên dịch mã Qr
-from controller import runRelay_on1,runRelay_on2,runRelay_on3,runRelay_on4,runRelay_off,runRelay_off1,runRelay_off2,runRelay_off3,runRelay_off4#mở file controller 
+from controller import runRelay_on1,runRelay_on2,runRelay_on3,runRelay_on4,runRelay_off,runRelay_off1,runRelay_off2,runRelay_off3,runRelay_off4,delay#mở file controller 
 
 
 
@@ -44,7 +44,7 @@ while True:
             runRelay_off2()
             runRelay_off3()
             runRelay_off4()
-            
+            delay(3 )
         elif myData == datafromfile[1]:
              out_Put = "Ok2"
              myColor = (0,255,0)
@@ -52,7 +52,7 @@ while True:
              runRelay_off1()
              runRelay_off3()
              runRelay_off4()
-             
+             delay(3)
         elif myData == datafromfile[2]:
              out_Put = "Ok3"
              myColor = (0,255,0)
@@ -60,6 +60,7 @@ while True:
              runRelay_off1()
              runRelay_off4()
              runRelay_off2()
+             delay(3)
         elif myData == datafromfile[3]:
              out_Put = "Ok4"
              myColor = (0,255,0)
@@ -67,6 +68,7 @@ while True:
              runRelay_off1()
              runRelay_off2()
              runRelay_off3()
+             delay(3)
         else :
             out_Put ="Sai Qr_code ! xin dung ma khac !"
             myColor =(0,0,255)
